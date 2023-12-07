@@ -1,5 +1,14 @@
-﻿body {
+﻿html {
+    height: 100%;
+}
+
+body {
     background-color: #e4dad9;
+    background-image: url(Images/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+
 }
 
 .container {
@@ -9,26 +18,36 @@
 }
 
 header {
+    margin:0 auto;
+    text-align:center ;
+    background-color : #e4dad9;
     height: 200px;
-    text-align: center;
-    width:auto ;
+    width:300px ;
+    border-radius: 15px;
+    padding: 20px;
+
 }
 
 nav {
-    background-color: lightgray ;
     height: 40px;
     width :auto ;
 }
 
 main {
-    height: 400px;
-    text-align: center;
-    padding-top : 40px;
-    width :auto ;
+    margin: 0 auto;
+    text-align:center ;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #e4dad9;
+    height: auto;
+    width: fit-content;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
 }
 
 footer {
-    background-color: lightgray ;
     height: 100px;
     width :auto ;
 }
